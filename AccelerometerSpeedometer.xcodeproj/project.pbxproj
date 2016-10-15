@@ -12,6 +12,7 @@
 		3A8414DA1DB2BBBD00EB97B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A8414D81DB2BBBD00EB97B3 /* Main.storyboard */; };
 		3A8414DC1DB2BBBD00EB97B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A8414DB1DB2BBBD00EB97B3 /* Assets.xcassets */; };
 		3A8414DF1DB2BBBD00EB97B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A8414DD1DB2BBBD00EB97B3 /* LaunchScreen.storyboard */; };
+		3A8414E71DB2BE7A00EB97B3 /* AccelerometerSpeedometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8414E61DB2BE7A00EB97B3 /* AccelerometerSpeedometer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3A8414DB1DB2BBBD00EB97B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A8414DE1DB2BBBD00EB97B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A8414E01DB2BBBD00EB97B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A8414E61DB2BE7A00EB97B3 /* AccelerometerSpeedometer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccelerometerSpeedometer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				3A8414D41DB2BBBD00EB97B3 /* AppDelegate.swift */,
 				3A8414D61DB2BBBD00EB97B3 /* ViewController.swift */,
+				3A8414E61DB2BE7A00EB97B3 /* AccelerometerSpeedometer.swift */,
 				3A8414D81DB2BBBD00EB97B3 /* Main.storyboard */,
 				3A8414DB1DB2BBBD00EB97B3 /* Assets.xcassets */,
 				3A8414DD1DB2BBBD00EB97B3 /* LaunchScreen.storyboard */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					3A8414D01DB2BBBD00EB97B3 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = UJPCPV3425;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A8414E71DB2BE7A00EB97B3 /* AccelerometerSpeedometer.swift in Sources */,
 				3A8414D71DB2BBBD00EB97B3 /* ViewController.swift in Sources */,
 				3A8414D51DB2BBBD00EB97B3 /* AppDelegate.swift in Sources */,
 			);
@@ -260,6 +265,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UJPCPV3425;
 				INFOPLIST_FILE = AccelerometerSpeedometer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adriancedwards.AccelerometerSpeedometer;
@@ -272,6 +278,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UJPCPV3425;
 				INFOPLIST_FILE = AccelerometerSpeedometer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adriancedwards.AccelerometerSpeedometer;
