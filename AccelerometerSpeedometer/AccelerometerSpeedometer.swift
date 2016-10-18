@@ -31,4 +31,9 @@ class AccelerometerSpeedometer {
         return (x: accel!.x, y: accel!.y, z: accel!.z)
     }
     
+    init() {
+        
+        setupMotionManager()
+    }
+    
 }
